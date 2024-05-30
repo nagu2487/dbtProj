@@ -1,4 +1,4 @@
-dbt_proj:
+dbt_projs:
   target: prod
   outputs:
     prod:
