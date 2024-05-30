@@ -1,4 +1,4 @@
-prelude_conspire:
+dbt_proj:
   target: prod
   outputs:
     prod:
