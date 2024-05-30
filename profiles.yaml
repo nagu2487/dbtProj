@@ -1,0 +1,10 @@
+prelude_conspire:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      host: upakdrz-bg19543
+      user: yoursnaag24
+      password: Infa1234#
+      dbname: demo
+      schema: POSTGRES_ONPREM_29MAY_PUBLIC
