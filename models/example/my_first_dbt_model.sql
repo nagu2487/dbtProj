@@ -17,7 +17,7 @@ with source_data as (
 
 )
 
-select *
+select 1
 from source_data
 
 /*
