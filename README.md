@@ -1,6 +1,7 @@
 Welcome to your new dbt project!
 
-### Using the starter project
+### Using the starter project 
+### Added new feature
 
 Try running the following commands:
 - dbt run
