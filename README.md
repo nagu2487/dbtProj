@@ -4,6 +4,7 @@ Welcome to your new dbt project!
 ### Added new feature
 ### Changes added to the new feature
 ### Bug fix done
+### Added comments for feature1211 branch CU-86cw0bvm7
 
 Try running the following commands:
 - dbt run
