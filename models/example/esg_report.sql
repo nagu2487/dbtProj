@@ -13,7 +13,7 @@ FROM
     Companies c
 RIGHT JOIN
     EnvironmentalMetrics em ON c.CompanyID = em.CompanyID
-LEFT JOIN
+RIGHT JOIN
     SocialGovernanceMetrics sgm ON c.CompanyID = sgm.CompanyID AND em.Year = sgm.YEAR)
     
 SELECT companyname, industry, headquarters, YEAR, carbonemissions, 
