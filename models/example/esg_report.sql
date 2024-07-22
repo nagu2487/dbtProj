@@ -11,7 +11,7 @@ WITH esg_report AS (SELECT
     sgm.BoardIndependence
 FROM
     Companies c
-LEFT JOIN
+RIGHT JOIN
     EnvironmentalMetrics em ON c.CompanyID = em.CompanyID
 LEFT JOIN
     SocialGovernanceMetrics sgm ON c.CompanyID = sgm.CompanyID AND em.Year = sgm.YEAR)
